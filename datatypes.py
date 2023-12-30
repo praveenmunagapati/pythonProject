@@ -1,4 +1,4 @@
-# comment
+# single line comment
 
 """
 
