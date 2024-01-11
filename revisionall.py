@@ -305,4 +305,176 @@ print(a<<2)# multiply by 2 power n
 print(a>>2)# divide by 2 power n
 
 
-#
+#control statements
+"""
+syntax if condition:
+            statement1
+            statement2
+            statement3
+rest of statements
+"""
+
+if True:
+    print("this will excecute")
+    print("this also will excecute")
+
+print(" i am not part of if ")
+
+if True:
+    print("this will excecute")
+    print("this also will excecute")
+    if False:
+        print("this will not excecute")
+        print("this also will not excecute")
+
+print(" i am not part of if ")
+
+
+"""
+if else
+syntax
+    if  condition:
+            statement1
+            statement2
+            statement3
+    else :
+            statement1
+            statement2
+            statement3  
+            
+rest of statements
+"""
+
+a = 10
+
+if a>=0:
+    print("a is positive")
+else:
+    print("a is negative")
+
+a = -10
+
+if a>=0:
+    print("a is positive")
+else:
+    print("a is negative")
+
+"""
+elif
+syntax
+    if  condition:
+            statement1
+            statement2
+            statement3
+    elif condition :
+            statement1
+            statement2
+            statement3  
+    elif condition :
+            statement1
+            statement2
+            statement3  
+
+"""
+
+current_signal = "green"
+if current_signal == "red":
+    print("walk on zebra")
+    print("stop engine")
+elif current_signal == "orange":
+    print("start engine")
+elif current_signal == "green":
+    print("go go go")
+
+
+current_signal = "red"
+if current_signal == "red":
+    print("walk on zebra")
+    print("stop engine")
+elif current_signal == "orange":
+    print("start engine")
+elif current_signal == "green":
+    print("go go go")
+
+
+current_signal = "orange"
+if current_signal == "red":
+    print("walk on zebra")
+    print("stop engine")
+elif current_signal == "orange":
+    print("start engine")
+elif current_signal == "green":
+    print("go go go")
+
+"""
+while 
+
+syntax 
+    while condition:
+            statement1
+            statement2
+            statement3  
+
+"""
+
+while False:
+    print("catch me if you can")
+"""
+while True:
+    print("oops!")
+    """
+start = 0
+stop = 100
+step = 10
+
+while start < stop:
+    print(start)
+    start+=step
+
+while False:
+    print("catch me if you can")
+else:
+    print("no while for you")
+
+"""
+for 
+
+    for container in container:
+                statement1
+                statement2
+                statement3 
+
+"""
+
+simple_list = [1,1.0,"ram",6+8j]
+
+for i in simple_list:
+    print(i)
+
+
+
+for i in simple_list:
+    print(i)
+else:
+    print("simple list completed")
+
+"""
+jumps
+
+break 
+
+continue
+
+"""
+
+i = 0
+
+while True:
+    print(i)
+    if i == 5:
+        print("skipped")
+        i += 1
+        continue
+    if i >=100:
+        break
+    i+=1
