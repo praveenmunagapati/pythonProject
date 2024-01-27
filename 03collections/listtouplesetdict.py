@@ -134,3 +134,9 @@ print(adictionary)
 #
 # del adictionary
 # print(adictionary)
+
+
+list = [1,2,5,6,4]
+
+if 5 in list:
+    print("exist")
