@@ -48,11 +48,11 @@ man = human("home sapians")
 man.printme()
 
 class human:
-    def __init__(self,type):
+    def __init__(human,type):
         print(" i am a  human")
-        self.spiecies = type
-    def printme(self):
-        print(self.spiecies)
+        human.spiecies = type
+    def printme(human):
+        print(human.spiecies)
 
 man = human("home sapians")
 man.printme()
